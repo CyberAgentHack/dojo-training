@@ -1,5 +1,5 @@
 # CA Tech Dojo 事前準備
-golang, Dockerをインストールして下記のコマンドを実行できるか確認してください
+golang, Docker, Docker Composeをインストールして下記のコマンドを実行できるか確認してください
 
 ```
 $ go run main.go
@@ -10,7 +10,7 @@ Hello World !
 ### 1. golangをインストールする<br>
 詳細なインストール方法についてはここでは省略します。<br>
 MacやLinuxで開発を行う場合はanyenvやgoenvなどのバージョン管理ツールでインストールするのがおすすめです。
-### 2. Dockerをインストールする<br>
+### 2. Docker, Docker Composeをインストールする<br>
 方法は特に指定しませんが１つの方法としては公式サイトからDocker Desktopをインストールするという方法があります。<br>
 https://docs.docker.com/get-docker/ <br><br>
 
