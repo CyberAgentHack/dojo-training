@@ -14,7 +14,7 @@ MacやLinuxで開発を行う場合はanyenvやgoenvなどのバージョン管�
 方法は特に指定しませんが１つの方法としては公式サイトからDocker Desktopをインストールするという方法があります。<br>
 https://docs.docker.com/get-docker/ <br><br>
 
-※ 開発にWindowsを用いる場合、環境によってはDockerコンテナの起動が困難な可能性があります。自分では解決できなそうと感じたらSlack等でご相談ください。
+※ 開発にWindowsを用いる場合、環境によってはDockerコンテナの起動が困難な可能性があります。自分では解決できなそうと感じた場合はSlack等でご相談ください。
 ### 3. このリポジトリをcloneする<br>
 ```
 $ git clone https://github.com/CyberAgentHack/dojo-training.git
@@ -35,6 +35,8 @@ $ docker-compose ps
 dojo-training_mysql_1   docker-entrypoint.sh mysql ...   Up      0.0.0.0:3306->3306/tcp, 33060/tcp
 ```
 ### 5. main.goを実行する<br>
+go run コマンドでmain.goを実行し、`Hello World !` と表示されることを確認してください。<br>
+表示されない、もしくはエラーが表示される場合はNGとします。
 ```
 $ go run main.go
 Hello World !
