@@ -9,6 +9,7 @@ Hello World !
 ## 手順
 ### 1. golangをインストールする<br>
 詳細なインストール方法についてはここでは省略します。<br>
+versionは1.15以降としてください。<br>
 MacやLinuxで開発を行う場合はanyenvやgoenvなどのバージョン管理ツールでインストールするのがおすすめです。
 ### 2. Docker, Docker Composeをインストールする<br>
 方法は特に指定しませんが１つの方法としては公式サイトからDocker Desktopをインストールするという方法があります。<br>
