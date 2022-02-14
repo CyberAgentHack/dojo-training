@@ -9,11 +9,11 @@ Hello World !
 ## 手順
 ### 1. golangをインストールする<br>
 詳細なインストール方法についてはここでは省略します。<br>
-versionは1.15以降としてください。<br>
+versionは1.17以降としてください。<br>
 MacやLinuxで開発を行う場合はanyenvやgoenvなどのバージョン管理ツールでインストールするのがおすすめです。
 ### 2. Docker, Docker Composeをインストールする<br>
-方法は特に指定しませんが１つの方法としては公式サイトからDocker Desktopをインストールするという方法があります。<br>
-https://docs.docker.com/get-docker/ <br><br>
+Docker DesktopのPersonal Planをインストールしてください<br>
+https://www.docker.com/products/personal <br><br>
 
 ※ 開発にWindowsを用いる場合、環境によってはDockerコンテナの起動が困難な可能性があります。自分では解決できなそうと感じた場合はSlack等でご相談ください。
 ### 3. このリポジトリをcloneする<br>
@@ -49,4 +49,14 @@ Stopping dojo-training_mysql_1 ... done
 Removing dojo-training_mysql_1 ... done
 Removing network dojo-training_default
 Removing volume dojo-training_db-data
+```
+
+### 7. golangci-lintをインストールする
+```shell
+$ go install github.com/golangci/golangci-lint/cmd/golangci-lint@v1.42.1
+```
+
+### 8. lintエラーが出ないことを確認
+```shell
+$ golangci-lint run
 ```
