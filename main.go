@@ -12,11 +12,11 @@ import (
 const driverName = "mysql"
 
 type Hello struct {
-	ID int32
+	ID   int32
 	Text string
 }
 
-func main()  {
+func main() {
 	user := "root"
 	password := "dojo-training"
 	host := "127.0.0.1"
